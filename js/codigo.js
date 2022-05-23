@@ -8,7 +8,7 @@ const btnListar = document.querySelector(".btnListar");
 const baseDeDatos = window.localStorage;
 
 btnRegistro.onclick = ()=> {
-
+    
     let cliente = {
         id: Math.random(1,100),
         nombre: nombre.value,
@@ -17,12 +17,16 @@ btnRegistro.onclick = ()=> {
         password: password.value,
     }
     console.log(cliente);
+    Swal.fire('Gracias por Registrarte!');
     guardarCliente(baseDeDatos,cliente );
 }
 
 const guardarCliente = (baseDeDatos, cliente) =>{
     baseDeDatos.setItem(cliente.id, JSON.stringify(cliente));
-    window.location.href = '/'
+    nombre.value=null;
+    apellido.value=null;
+    email.value=null;
+    password.value=null;
 }
 
 //CALCULO DE PRÉSTAMO
