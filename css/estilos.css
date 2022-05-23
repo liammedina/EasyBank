@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 0;
+}
+.logo{
+    height: 16vh;
+}
+nav .links a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    padding: 1rem;
+}
+.btnHomaBanking{
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    align-items: center;
+    font-size: 15px;
+}
+.btnRegistrar:hover{
+    background: #deff07;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+main{
+    padding: 0;
+    background-image: linear-gradient(to bottom, #dbdcd9, #e2e5e4, #ebeeee, #f5f6f7, #ffffff);
+}
+.portada{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #020202, #0c0b11, #13131b, #161824, #191e2e, #172233, #142739, #0e2b3d, #042e3d, #00313b, #013437, #093633);
+}
+.portadaIzq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20vh;
+    width: 97vw;
+}
+.imgPortadaDerSup{
+    position: relative;
+    height: 70vh;
+}
+p{
+    color: #181717;
+    font-family: 'Varela Round', sans-serif;
+}
+h1{
+    color: #181717;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 7px 5px 5px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+h2{
+    color: #181717;
+    font-family: 'Fredoka One', cursive;
+}
+h3{
+    color: #181717;
+    font-family: 'Fredoka One', cursive;
+}
+th{
+    color: #181717;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+}
+.registro input{
+    margin-top: 2vh;
+    border-radius: 30px;
+    padding-left: 1em
+}
+.btnRegistro{
+    margin-top: 2em;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #43cea2 0%, #142739 75%);
+}
+.btnRegistro:hover {
+    background-position: right center;
+}
+.btnRegistro:active {
+    top: 2px;
+}
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.seccion1Texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.focus-in-expand{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+    padding-left: 1.5em;
+    text-shadow: 7px 5px 5px rgba(0, 0, 0, 0.39);
+}
+.sec1{
+    height: 20vh;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 60px 0 0 60px;
+}
+.sec1Div1{
+    background-color: #3a84bd;
+    width: 45vw;
+}
+.sec1Div2{
+    background-color: #5fa0d1;
+    width: 50vw;
+}
+.sec1Div3{
+    background-color: #97c1e2;
+    width: 55vw;
+}
+.seccion1Titulo{
+    padding-left:1em;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+}
+.seccion1Coment{
+    margin-left: 2em;
+    font-size: 1.3em;
+}
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    margin: 7em 1.5em;
+}
+.contCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+}
+.tituloCard{
+    font-size: 2.5em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 7px 5px 5px rgba(0, 0, 0, 0.39);
+    text-align: center;
+}
+.card1{
+    width: 45vw;
+    height: 24vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1em 1em;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(315deg, #b9b7b7, #dbd9d9);
+    box-shadow:  -20px -20px 60px #aeadad,20px 20px 60px #ece9e9;
+}
+.card1 p{
+    font-size: 1.5em;
+    font-family: 'Varela Round', sans-serif;
+}
+.imgCard{
+    height: 30vh;
+}
+.imgCard:hover{
+    transform: scale(1.4);
+    transition: 500ms;
+}
+.card:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+}
+.simPrest{
+    width: 35%;
+    text-align: center;
+    margin: 10em auto;
+    padding: 2em 1em;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,-15px -15px 30px #ffffff;
+}    
+.seccion3{
+    margin: 10em 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 20vw;
+    margin: 3em;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+.card2 img{
+    height: 40vh;
+    position: relative;
+    z-index: 10;
+}
+.card2:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.card2::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+   }
+.card2:hover:before,
+.card2:hover:after {
+    transform: skewX(0deg) scaleX(1.3);
+}
+.card2:before,
+.card2:after {
+    background: linear-gradient(315deg, #83b4e2, #142739)
+}
+.card2 span::before {
+    top: -40px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+.card2 .contenidoCard2 {
+    position: relative;
+    width: 25vw;
+    height: 254px;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+    transform: 0.5s;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion4{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}  
+.cardSeccion4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    align-content: center;
+} 
+.card3{
+    width: 280px;
+    height: 300px;
+    padding: 3.5em 1em 1em 1em;
+    margin: 0 2em 5em ;
+    text-align: center;
+    align-content: center;
+    background: rgb(223, 225, 235);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.seccion5{
+    height: 12em;
+    width: 98.7vw;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%), linear-gradient(165deg, #480045 25%, #E9EAAF 100%), linear-gradient(145deg, #480045 25%, #E9EAAF 100%), linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%), linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1D566E 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);
+    background-blend-mode: overlay, overlay, overlay, multiply, normal;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.seccion5 h2{
+    color: whitesmoke;
+    margin: 1em 1em 1em 6em;
+    width: 50vw;
+}
+.seccion5 p{
+    color: whitesmoke;
+    margin-left:12em ;
+}
+.seccion5 img{
+    height: 60vh;
+}
+.btnCalcular{
+    background-image: linear-gradient(144deg,#06BC3E, #10104F 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family:'Varela Round', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    min-width: 140px;
+    padding: 3px;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btnCalcular:active {
+    transform: scale(0.9);
+}
+/*Estilos Banca*/
+
+.portadaBanca{
+    background-image: linear-gradient(to right top, #020202, #0c0b11, #13131b, #161824, #191e2e, #172233, #142739, #0e2b3d, #042e3d, #00313b, #013437, #093633);
+    height: 79.5vh;
+}
+.escritorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95vw;
+    height:78vh;
+    background-color: #616768;
+    border-radius: 50px;
+    padding: 2em 1em;
+    margin: 8em auto
+}
+.columna{
+    width: 20vw;
+    align-content: center;
+    padding: 1em;
+}
+.saldo{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px #020202;
+}
+.columna1{
+    width: 50vw;
+    margin: 1em 1em;
+    text-align: center
+}
+input{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1em;
+}
+.columna .inf1 p{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px #020202;
+}
+.columna .inf2 p{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px #020202;
+}
+.columna1 div p{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px #020202;
+    margin-top: 1em;
+}
+.usuario{
+    border-radius: 50%;
+    border: solid 5px gray;
+    height: 10em;
+}
+.tarjeta{
+    height: 9em;
+    margin: 1em 0 0 0;
+}
+.btnBanca{
+    align-items: center;
+    background-image: linear-gradient(144deg,#06BC3E, #10104F 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family:'Varela Round', sans-serif;
+    font-size: 18px;
+    height: 28px;
+    justify-content: center;
+    line-height: 0.75em;
+    min-width: 140px;
+    padding: 3px;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btnBanca:active {
+    transform: scale(0.9);
+}
+.select{
+    border-radius: 5px;
+    font-family:'Varela Round', sans-serif;
+}
